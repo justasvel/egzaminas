@@ -1,3 +1,6 @@
+<?php
+    require '../U3_Justinas_Velička/comments.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -35,7 +38,7 @@
             <div class="row my-3 pt-4">
                 <div class="col-lg-4 col-md-6 col-sm-12 py-2">
                     <div class="card">
-                        <img src="/img/php.jpg" alt="" class="img-fluid card-img-top">
+                        <img src="img/php.jpg" alt="" class="img-fluid card-img-top">
                         <div class="card-body">
                             <a id="link" href="#">
                                 <h5 class="card-title">PHP Pagrindai</h5>
@@ -60,7 +63,7 @@
                                 <div id="comments">
 
                                     <i class="fas fa-comment"></i>
-                                    <span class="comment-count mx-2">5</span>
+                                    <span class="comment-count mx-2"><?= $first['komentarai']; ?></span>
                                 </div>
                             </div>
                         </div>
@@ -68,7 +71,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 py-2">
                     <div class="card">
-                        <img src="/img/js.jpg" alt="" class="card-img-top img-fluid">
+                        <img src="img/js.jpg" alt="" class="card-img-top img-fluid">
                         <div class="card-body">
                             <a id="link" href="#">
                                 <h5 class="card-title">JavaScript Žaliems</h5>
@@ -94,7 +97,7 @@
                                 <div id="comments">
 
                                     <i class="fas fa-comment"></i>
-                                    <span class="comment-count mx-2">5</span>
+                                    <span class="comment-count mx-2"><?= $second['komentarai']; ?></span>
                                 </div>
                             </div>
 
@@ -103,7 +106,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 py-2">
                     <div class="card">
-                        <img src="/img/git.jpg" alt="" class="card-img-top img-fluid">
+                        <img src="img/git.jpg" alt="" class="card-img-top img-fluid">
                         <div class="card-body">
                             <a id="link" href="#">
                                 <h5 class="card-title">Pažintis su GIT</h5>
@@ -129,7 +132,7 @@
                                 <div id="comments">
 
                                     <i class="fas fa-comment"></i>
-                                    <span class="comment-count mx-2">6</span>
+                                    <span class="comment-count mx-2"><?= $third['komentarai']; ?></span>
                                 </div>
                             </div>
                         </div>
@@ -137,7 +140,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 py-2">
                     <div class="card">
-                        <img src="/img/git.jpg" alt="" class="card-img-top img-fluid">
+                        <img src="img/git.jpg" alt="" class="card-img-top img-fluid">
                         <div class="card-body">
                             <a id="link" href="#">
                                 <h5 class="card-title">HTML/CSS Įvadas</h5>
@@ -163,7 +166,7 @@
                                 <div id="comments">
 
                                     <i class="fas fa-comment"></i>
-                                    <span class="comment-count mx-2">10</span>
+                                    <span class="comment-count mx-2"><?= $fourth['komentarai']; ?></span>
                                 </div>
                             </div>
                         </div>
@@ -210,7 +213,7 @@
         </div>
     </div>
     <!-- footer -->
+    <script src="js/main.js"></script>
 </body>
-<script src="js/main.js"></script>
 
 </html>
