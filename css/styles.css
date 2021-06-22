@@ -65,3 +65,19 @@ p {
     color: #6eb92b;
 }
 
+/* forma */
+
+form label {
+    font-size: 20px;
+    color: #697070;
+    font-weight: 200;
+}
+
+#submit {
+    background-color: #6eb92b !important;
+    color: #ffffff;
+}
+
+input, button {
+    border-radius: 5px !important;
+}
