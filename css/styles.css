@@ -65,6 +65,10 @@ p {
     color: #6eb92b;
 }
 
+#link {
+    text-decoration: none;
+}
+
 /* forma */
 
 form label {
@@ -80,4 +84,8 @@ form label {
 
 input, button {
     border-radius: 5px !important;
+}
+
+#newsletter {
+    color: #6eb92b;
 }
